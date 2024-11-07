@@ -1,7 +1,4 @@
-// dH 10/3/24
-// zooVersion01.java
-// revised 10/24/24
-// revised 10/31/24
+
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -144,6 +141,9 @@ public class App {
                             aniOrigin01 + aniOrigin02, aniArrivalDate);
                     System.out.println(" The new hyena's color is :" + hyena.getAnimalColor());
                 }
+
+                // Print the total number of animals created
+                System.out.println("Total number of animals created: " + Animal.numOfAnimals);
 
             }
         } catch (IOException e) {
